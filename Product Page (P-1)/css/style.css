@@ -1,0 +1,597 @@
+/* ==============================
+        common css start
+================================= */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1604px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* ==============================
+        common css end
+================================= */
+/* ==============================
+        navber_part start
+================================= */
+header {
+  width: 100%;
+  background-color: aqua;
+}
+
+header .top {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 32px 0;
+}
+
+header .top .logo {
+  width: 37%;
+}
+
+header .top .menu {
+  width: 63%;
+}
+
+header .top .menu ul {
+  column-gap: 40px;
+}
+
+header .top .menu ul a {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #262626;
+}
+
+header .bottom {
+  padding: 25px 0;
+  background-color: #f6f7f9;
+}
+
+header .bottom .left {
+  width: 20%;
+  align-items: center;
+}
+
+header .bottom .left p {
+  margin-left: 10px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #262626;
+}
+
+header .bottom .center {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+header .bottom .center .search_bar {
+  width: 601px;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+header .bottom .center .search_bar input {
+  padding: 16px 21px;
+  width: 90%;
+  border: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #c4c4c4;
+}
+
+header .bottom .center .search_bar input:focus {
+  outline: 0;
+}
+
+header .bottom .center .search_bar button {
+  width: 10%;
+  text-align: center;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+header .bottom .right {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 41px;
+}
+/* ==============================
+        navber_part end
+================================= */
+/* ==============================
+    Product_inside_part start
+================================= */
+#Product_inside {
+  margin-bottom: 341px;
+}
+
+#Product_inside .tittle {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#Product_inside .tittle h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 49px;
+  font-weight: 700;
+  color: #262626;
+}
+
+#Product_inside .tittle p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #6d6d60;
+  margin-top: 10px;
+}
+
+#Product_inside .tittle p i {
+  margin: 0 5px;
+}
+
+#Product_inside .all_main .images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 40px;
+  margin-bottom: 49px;
+}
+
+#Product_inside .all_main .images .image {
+  width: 48%;
+}
+
+#Product_inside .all_main .images .image img {
+  width: 100%;
+}
+
+#Product_inside .all_main .details h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 39px;
+  font-weight: 700;
+  color: #262626;
+}
+
+#Product_inside .all_main .details {
+  width: 48%;
+}
+
+#Product_inside .all_main .details p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #767676;
+  margin-top: 15px;
+  margin-bottom: 21px;
+}
+
+#Product_inside .all_main .details p span {
+  color: #ffd881;
+  margin-right: 20px;
+}
+
+#Product_inside .all_main .details p span i {
+  font-size: 12px;
+}
+
+#Product_inside .all_main .details h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #262626;
+  margin-bottom: 24px;
+}
+
+#Product_inside .all_main .details h4 span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #767676;
+  margin-right: 23px;
+  position: relative;
+}
+
+#Product_inside .all_main .details h4 span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 52px;
+  height: 1px;
+  background-color: #767676;
+  transform: translateY(-50%);
+}
+
+#Product_inside .all_main .details .information {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 30px;
+}
+#Product_inside .all_main .details .information .color {
+  display: flex;
+}
+
+#Product_inside .all_main .details .information label {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #262626;
+  margin-right: 53px;
+}
+
+#Product_inside .all_main .details .information .color i {
+  font-size: 20px;
+  margin-right: 15px;
+  color: #000000;
+  cursor: pointer;
+}
+
+#Product_inside .all_main .details .information .color i:nth-child(3) {
+  color: #ff8686;
+}
+
+#Product_inside .all_main .details .information .color i:nth-child(4) {
+  color: #7ed321;
+}
+
+#Product_inside .all_main .details .information .color i:nth-child(5) {
+  color: #b6b6b6;
+}
+
+#Product_inside .all_main .details .information .color i:last-child {
+  color: #15cba5;
+}
+
+#Product_inside .all_main .details .information .color i:hover {
+  transform: scale(1.5);
+}
+
+#Product_inside .all_main .details .information .size {
+  margin: 30px 0;
+}
+
+#Product_inside .all_main .details .information .size select {
+  padding: 8px 21px;
+  width: 139px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #767676;
+  margin-left: 23px;
+  border: 1px solid #f0f0f0;
+}
+
+#Product_inside .all_main .details .information .size select:focus {
+  outline: 0;
+}
+
+#Product_inside .all_main .details .information .quantity {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 30px;
+}
+
+#Product_inside .all_main .details .information .quantity label {
+  margin-right: 0;
+}
+
+#Product_inside .all_main .details .information .quantity h5 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #767676;
+  padding: 8px 21px;
+  border: 1px solid #f0f0f0;
+  margin-left: 30px;
+}
+
+#Product_inside .all_main .details .information .quantity h5 span {
+  margin: 0 38px;
+}
+
+#Product_inside .all_main .details .information .status {
+  display: flex;
+  margin-top: 21px;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 20px;
+}
+
+#Product_inside .all_main .details .information .status h5 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #767676;
+}
+
+#Product_inside .all_main .details .information .button {
+  margin-top: 30px;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 30px;
+}
+
+#Product_inside .all_main .details .information .button a {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #262626;
+  padding: 16px 48px 16px 42px;
+  border: 1px solid #000000;
+  margin-right: 20px;
+  transition: all linear 0.4s;
+}
+
+#Product_inside .all_main .details .information .button a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#Product_inside .all_main .details .information .button a:last-child {
+  padding: 16px 64px 16px 57px;
+  background-color: #000000;
+  color: #ffffff;
+  transition: all linear 0.4s;
+}
+
+#Product_inside .all_main .details .information .button a:last-child:hover {
+  background-color: transparent;
+  color: #000000;
+}
+
+#Product_inside .all_main .details .information .featu_main .features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 25px;
+}
+
+#Product_inside .all_main .details .information .featu_main .features h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #262626;
+}
+
+#Product_inside .all_main .details .information .featu_main p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #767676;
+  line-height: 30px;
+}
+
+#Product_inside .all_main .review .top {
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 15px;
+}
+
+#Product_inside .all_main .review .top h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #767676;
+  margin-bottom: 42px;
+}
+
+#Product_inside .all_main .review .top h4 span {
+  font-weight: 700;
+  color: #262626;
+  margin-left: 62px;
+}
+
+#Product_inside .all_main .review .top h6 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #767676;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 16px;
+}
+
+#Product_inside .all_main .review .top .main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 23px;
+}
+
+#Product_inside .all_main .review .top .main .icon {
+  display: flex;
+  width: 20%;
+  align-items: center;
+}
+
+#Product_inside .all_main .review .top .main .icon h5 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #262626;
+  margin-right: 37px;
+}
+
+#Product_inside .all_main .review .top .main .icon i {
+  color: #ffd881;
+  font-size: 12px;
+}
+
+#Product_inside .all_main .review .top p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #767676;
+  line-height: 30px;
+}
+
+#Product_inside .all_main .review .bottom {
+  margin-top: 53px;
+  width: 48%;
+}
+
+#Product_inside .all_main .review .bottom h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #262626;
+  margin-bottom: 25px;
+}
+
+#Product_inside .all_main .review .bottom form .one {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 23px;
+  margin-top: 23px;
+}
+
+#Product_inside .all_main .review .bottom form .one:nth-child(3) {
+  padding-bottom: 63px;
+}
+
+#Product_inside .all_main .review .bottom form .one label {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #262626;
+}
+
+#Product_inside .all_main .review .bottom form .one input {
+  padding-top: 10px;
+  padding-bottom: 17px;
+  border: 0;
+}
+
+#Product_inside .all_main .review .bottom form .one input:focus {
+  outline: 0;
+}
+
+#Product_inside .all_main .review .bottom form .one input::placeholder {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #767676;
+}
+
+#Product_inside .all_main .review .bottom form button {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 16px 88px 16px 82px;
+  background-color: #262626;
+  cursor: pointer;
+  border: 1px solid #262626;
+  transition: all linear 0.4s;
+  margin-top: 29px;
+}
+
+#Product_inside .all_main .review .bottom form button:hover {
+  color: #262626;
+  background-color: transparent;
+}
+/* ==============================
+    Product_inside_part end
+================================= */
+/* ==============================
+        footer_part start
+================================= */
+footer {
+  background-color: #f5f5f3;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+footer .flex {
+  justify-content: space-between;
+}
+
+footer .left {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .left .item h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #262626;
+  margin-bottom: 17px;
+}
+
+footer .left .item ul a {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6d6d6d;
+  margin-bottom: 8px;
+}
+
+footer .right {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .right .item {
+  width: 50%;
+}
+
+footer .right .item a {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #262626;
+  margin-bottom: 15px;
+  width: 186px;
+}
+
+footer .right .item p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6d6d6d;
+}
+
+footer .main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+
+footer .main .icon i {
+  margin-right: 25px;
+}
+
+footer .main p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6d6d6d;
+}
+/* ==============================
+        footer_part end
+================================= */

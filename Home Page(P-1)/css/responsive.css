@@ -1,0 +1,49 @@
+@media (min-width: 320px) and (max-width: 720px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  header {
+    background-color: red;
+  }
+
+  header .top .flex {
+    flex-direction: column;
+    position: relative;
+  }
+
+  header .top .flex .logo {
+    width: 100%;
+    background-color: yellow;
+  }
+
+  header .top .flex .menu {
+    width: 100%;
+    background: green;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    transition: all linear 0.4s;
+  }
+
+  header .top .flex label {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  header .top .flex label {
+    display: block;
+  }
+
+  header .top .flex input:checked ~ .menu {
+    opacity: 1;
+    visibility: visible;
+    height: 95px;
+  }
+}

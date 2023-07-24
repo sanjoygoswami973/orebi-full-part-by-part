@@ -1,0 +1,284 @@
+/* ==============================
+        common css start
+================================= */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1604px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* ==============================
+        common css end
+================================= */
+/* ==============================
+        navber_part start
+================================= */
+header {
+  width: 100%;
+  background-color: aqua;
+}
+
+header .top {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 32px 0;
+}
+
+header .top .logo {
+  width: 37%;
+}
+
+header .top .menu {
+  width: 63%;
+}
+
+header .top .menu ul {
+  column-gap: 40px;
+}
+
+header .top .menu ul a {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #262626;
+}
+
+header .bottom {
+  padding: 25px 0;
+  background-color: #f6f7f9;
+}
+
+header .bottom .left {
+  width: 20%;
+  align-items: center;
+}
+
+header .bottom .left p {
+  margin-left: 10px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #262626;
+}
+
+header .bottom .center {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+header .bottom .center .search_bar {
+  width: 601px;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+header .bottom .center .search_bar input {
+  padding: 16px 21px;
+  width: 90%;
+  border: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #c4c4c4;
+}
+
+header .bottom .center .search_bar input:focus {
+  outline: 0;
+}
+
+header .bottom .center .search_bar button {
+  width: 10%;
+  text-align: center;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+header .bottom .right {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 41px;
+}
+/* ==============================
+        navber_part end
+================================= */
+/* ==============================
+        account_part start
+================================= */
+#account_part {
+  margin-top: 124px;
+  margin-bottom: 140px;
+}
+
+#account_part .tittle {
+  margin-bottom: 127px;
+}
+
+#account_part .tittle h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 49px;
+  font-weight: 700;
+  color: #262626;
+}
+
+#account_part .tittle p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #6d6d60;
+  margin-top: 10px;
+}
+
+#account_part .tittle p i {
+  margin: 0 5px;
+}
+
+#account_part .main {
+  display: flex;
+  justify-content: space-between;
+}
+
+#account_part .main .left {
+  width: 18%;
+}
+
+#account_part .main .left h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #262626;
+  padding-bottom: 21px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+#account_part .main .left h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #767676;
+  padding-bottom: 21px;
+  border-bottom: 1px solid #f0f0f0;
+  margin-top: 20px;
+}
+
+#account_part .main .right {
+  width: 80%;
+}
+
+#account_part .main .right p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #767676;
+  line-height: 30px;
+  width: 918px;
+  margin-bottom: 10px;
+}
+
+#account_part .main .right p span {
+  color: #262626;
+}
+/* ==============================
+        account_part end
+================================= */
+/* ==============================
+        footer_part start
+================================= */
+footer {
+  background-color: #f5f5f3;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+footer .flex {
+  justify-content: space-between;
+}
+
+footer .left {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .left .item h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #262626;
+  margin-bottom: 17px;
+}
+
+footer .left .item ul a {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6d6d6d;
+  margin-bottom: 8px;
+}
+
+footer .right {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .right .item {
+  width: 50%;
+}
+
+footer .right .item a {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #262626;
+  margin-bottom: 15px;
+  width: 186px;
+}
+
+footer .right .item p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6d6d6d;
+}
+
+footer .main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+
+footer .main .icon i {
+  margin-right: 25px;
+}
+
+footer .main p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6d6d6d;
+}
+/* ==============================
+        footer_part end
+================================= */

@@ -1,0 +1,364 @@
+/* ==============================
+        common css start
+================================= */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1604px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* ==============================
+        common css end
+================================= */
+/* ==============================
+        navber_part start
+================================= */
+header {
+  width: 100%;
+  background-color: aqua;
+}
+
+header .top {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 32px 0;
+}
+
+header .top .logo {
+  width: 37%;
+}
+
+header .top .menu {
+  width: 63%;
+}
+
+header .top .menu ul {
+  column-gap: 40px;
+}
+
+header .top .menu ul a {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #262626;
+}
+
+header .bottom {
+  padding: 25px 0;
+  background-color: #f6f7f9;
+}
+
+header .bottom .left {
+  width: 20%;
+  align-items: center;
+}
+
+header .bottom .left p {
+  margin-left: 10px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #262626;
+}
+
+header .bottom .center {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+header .bottom .center .search_bar {
+  width: 601px;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+header .bottom .center .search_bar input {
+  padding: 16px 21px;
+  width: 90%;
+  border: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #c4c4c4;
+}
+
+header .bottom .center .search_bar input:focus {
+  outline: 0;
+}
+
+header .bottom .center .search_bar button {
+  width: 10%;
+  text-align: center;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+header .bottom .right {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 41px;
+}
+/* ==============================
+        navber_part end
+================================= */
+/* ==============================
+        sign_up_part start
+================================= */
+#sign_up_part {
+  margin-top: 124px;
+  margin-bottom: 140px;
+}
+
+#sign_up_part .tittle {
+  margin-bottom: 127px;
+}
+
+#sign_up_part .tittle h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 49px;
+  font-weight: 700;
+  color: #262626;
+}
+
+#sign_up_part .tittle p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #6d6d60;
+  margin-top: 10px;
+}
+
+#sign_up_part .tittle p i {
+  margin: 0 5px;
+}
+
+#sign_up_part .para {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #767676;
+  line-height: 30px;
+  width: 644px;
+  margin-bottom: 62px;
+}
+
+#sign_up_part .customer {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 57px;
+  padding-bottom: 45px;
+}
+
+#sign_up_part .customer h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 39px;
+  font-weight: 700;
+  color: #262626;
+  margin-bottom: 42px;
+}
+
+#sign_up_part .customer .flex {
+  width: 1055px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+#sign_up_part .customer .flex .item {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+#sign_up_part .customer .flex .item label {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #262626;
+}
+
+#sign_up_part .customer .flex .item input {
+  padding-top: 10px;
+  padding-bottom: 17px;
+  border: 0;
+}
+
+#sign_up_part .customer .flex .item input:focus {
+  outline: 0;
+}
+
+#sign_up_part .customer .flex .item select {
+  padding-top: 10px;
+  padding-bottom: 17px;
+  border: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #767676;
+}
+
+#sign_up_part .customer .flex .item select:focus {
+  outline: 0;
+}
+
+#sign_up_part .customer .flex .item input::placeholder {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #767676;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#sign_up_part .main_box {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 57px;
+}
+
+#sign_up_part .main_box .check_box {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #767676;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 23px;
+  width: 305px;
+}
+
+#sign_up_part .main_box .check_box .flex input {
+  margin-left: 39px;
+}
+
+#sign_up_part .main_box .check_box .flex input:first-child {
+  margin-left: 0;
+}
+
+#sign_up_part .main_box .check_box .flex span {
+  margin-left: 15px;
+}
+
+#sign_up_part .main_box a {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #262626;
+  padding: 16px 83px 16px 77px;
+  border: 1px solid #000000;
+  transition: all linear 0.4s;
+  margin-top: 4px;
+}
+
+#sign_up_part .main_box a:hover {
+  color: #262626;
+  background-color: transparent;
+}
+/* ==============================
+        sign_up_part end
+================================= */
+/* ==============================
+        footer_part start
+================================= */
+footer {
+  background-color: #f5f5f3;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+footer .flex {
+  justify-content: space-between;
+}
+
+footer .left {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .left .item h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #262626;
+  margin-bottom: 17px;
+}
+
+footer .left .item ul a {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6d6d6d;
+  margin-bottom: 8px;
+}
+
+footer .right {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .right .item {
+  width: 50%;
+}
+
+footer .right .item a {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #262626;
+  margin-bottom: 15px;
+  width: 186px;
+}
+
+footer .right .item p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6d6d6d;
+}
+
+footer .main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+
+footer .main .icon i {
+  margin-right: 25px;
+}
+
+footer .main p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6d6d6d;
+}
+/* ==============================
+        footer_part end
+================================= */

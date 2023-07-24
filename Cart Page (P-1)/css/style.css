@@ -1,0 +1,406 @@
+/* ==============================
+        common css start
+================================= */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1604px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* ==============================
+        common css end
+================================= */
+/* ==============================
+        navber_part start
+================================= */
+header {
+  width: 100%;
+  background-color: aqua;
+}
+
+header .top {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 32px 0;
+}
+
+header .top .logo {
+  width: 37%;
+}
+
+header .top .menu {
+  width: 63%;
+}
+
+header .top .menu ul {
+  column-gap: 40px;
+}
+
+header .top .menu ul a {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #262626;
+}
+
+header .bottom {
+  padding: 25px 0;
+  background-color: #f6f7f9;
+}
+
+header .bottom .left {
+  width: 20%;
+  align-items: center;
+}
+
+header .bottom .left p {
+  margin-left: 10px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #262626;
+}
+
+header .bottom .center {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+header .bottom .center .search_bar {
+  width: 601px;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+header .bottom .center .search_bar input {
+  padding: 16px 21px;
+  width: 90%;
+  border: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #c4c4c4;
+}
+
+header .bottom .center .search_bar input:focus {
+  outline: 0;
+}
+
+header .bottom .center .search_bar button {
+  width: 10%;
+  text-align: center;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+header .bottom .right {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 41px;
+}
+/* ==============================
+        navber_part end
+================================= */
+/* ==============================
+          cart_part start
+================================= */
+#cart_part {
+  margin-top: 124px;
+  margin-bottom: 140px;
+}
+
+#cart_part .tittle {
+  margin-bottom: 127px;
+}
+
+#cart_part .tittle h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 49px;
+  font-weight: 700;
+  color: #262626;
+}
+
+#cart_part .tittle p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #6d6d60;
+  margin-top: 10px;
+}
+
+#cart_part .tittle p i {
+  margin: 0 5px;
+}
+
+#cart_part .main {
+  display: flex;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+#cart_part .main .item {
+  width: 25%;
+}
+
+#cart_part .main .item .top {
+  padding: 32px 0 34px 20px;
+  background-color: #f5f5f3;
+}
+
+#cart_part .main .item .top h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #262626;
+}
+
+#cart_part .main .item .bottom {
+  padding: 66px 20px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+#cart_part .main .item:first-child .bottom {
+  padding: 27px 20px;
+}
+
+#cart_part .main .item:nth-child(3) .bottom {
+  padding: 60px 20px;
+}
+
+#cart_part .main .item .bottom .product {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+#cart_part .main .item .bottom .product i {
+  margin-right: 40px;
+}
+
+#cart_part .main .item .bottom h5 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #262626;
+}
+
+#cart_part .main .item:nth-child(3) .bottom h5 {
+  padding: 5px 21px;
+  border: 1px solid #f0f0f0;
+  font-weight: 400;
+  color: #767676;
+}
+
+#cart_part .main .item:nth-child(3) .bottom h5 span {
+  margin: 0 38px;
+}
+
+#cart_part .flex {
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+#cart_part .flex .select {
+  display: flex;
+  align-items: center;
+}
+
+#cart_part .flex .select select {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #767676;
+  padding: 10px 21px;
+  width: 255px;
+  margin-right: 20px;
+  border: 1px solid #f0f0f0;
+}
+
+#cart_part .flex .select select:focus {
+  outline: 0;
+}
+
+#cart_part .flex h6 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #262626;
+}
+
+#cart_part .total_main {
+  display: flex;
+  margin-top: 54px;
+}
+#cart_part .total_main .left {
+  width: 60%;
+}
+
+#cart_part .total_main .right {
+  width: 40%;
+}
+
+#cart_part .total_main .right .r_top {
+  text-align: end;
+  margin-bottom: 24px;
+}
+
+#cart_part .total_main .right .r_top h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #262626;
+}
+
+#cart_part .total_main .right .r_bottom .one {
+  display: flex;
+  justify-content: space-between;
+}
+
+#cart_part .total_main .right .r_bottom .one h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #262626;
+  padding: 17px 20px 14px 20px;
+  width: 50%;
+  border: 1px solid #f0f0f0;
+}
+
+#cart_part .total_main .right .r_bottom .one p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #767676;
+  padding: 13px 20px 11px;
+  width: 50%;
+  border: 1px solid #f0f0f0;
+}
+
+#cart_part .total_main .right .button {
+  text-align: end;
+  margin-top: 30px;
+}
+
+#cart_part .total_main .right .button a {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #262626;
+  padding: 16px 31px 16px 24px;
+  border: 1px solid #000000;
+  transition: all linear 0.4s;
+}
+
+#cart_part .total_main .right .button a:hover {
+  background-color: transparent;
+  color: #262626;
+}
+/* ==============================
+          cart_part end
+================================= */
+/* ==============================
+        footer_part start
+================================= */
+footer {
+  background-color: #f5f5f3;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+footer .flex {
+  justify-content: space-between;
+}
+
+footer .left {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .left .item h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #262626;
+  margin-bottom: 17px;
+}
+
+footer .left .item ul a {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6d6d6d;
+  margin-bottom: 8px;
+}
+
+footer .right {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .right .item {
+  width: 50%;
+}
+
+footer .right .item a {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #262626;
+  margin-bottom: 15px;
+  width: 186px;
+}
+
+footer .right .item p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6d6d6d;
+}
+
+footer .main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+
+footer .main .icon i {
+  margin-right: 25px;
+}
+
+footer .main p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6d6d6d;
+}
+/* ==============================
+        footer_part end
+================================= */
